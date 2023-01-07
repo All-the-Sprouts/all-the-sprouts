@@ -3,15 +3,6 @@ body {
   /* background-color: #aaaaaa; For easy distinction with other background*/
   background-image: var(--bs-gradient);
   color: black;
-  min-height: 100vh;
-  margin: 0;
-  position: relative;
-}
-
-body::after {
-  content: '';
-  display: inline-block;
-  height: calc(100vh - 500px);
 }
 
 * {
@@ -94,15 +85,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fadadd;
 }
 
-footer {
-  background-color: #6aaa61;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-}
-
 .footercol {
   margin-top: 1vh;
   margin-bottom: 1vh;
@@ -122,12 +104,26 @@ footer {
   border-right: 0;
 }
 
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
 .body-container {
   padding-top: 7vh;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 1vh;
+  padding-bottom: 32rem;
   background-color: #fff3d1;
+}
+
+footer {
+  background-color: #6aaa61;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
 }
 
 a {
@@ -166,4 +162,8 @@ a {
   max-height: 95%;
   width: auto;
   height: 200px;
+}
+
+.card-img-top {
+  margin-top: 1rem;
 }
