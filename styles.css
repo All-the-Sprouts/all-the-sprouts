@@ -1,0 +1,169 @@
+body {
+  background-color: #fff5e5;
+  /* background-color: #aaaaaa; For easy distinction with other background*/
+  background-image: var(--bs-gradient);
+  color: black;
+  min-height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+body::after {
+  content: '';
+  display: inline-block;
+  height: calc(100vh - 500px);
+}
+
+* {
+  font-family: 'Abel', sans-serif;
+}
+
+nav {
+  font-size: 18px;
+  background-color: #6aaa61;
+}
+
+.nav-link, .navbar-brand {
+  font-family: 'Oswald', sans-serif!important;
+}
+
+.card {
+  border-color: none;
+  border-width: medium;
+  margin: 5px;
+  background-color: inherit;
+}
+
+.carousel-inner > .carousel-item > img {
+  height: 50vh;
+  margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+.card-title > a {
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.row {
+  text-align: center;
+}
+
+/* Program-specific graphics */
+
+.so {
+  border-color: #0d6efd;
+  color: #0d6efd;
+}
+
+._3s {
+  border-color: #20c997;
+  color: #20c997;
+}
+
+.soa {
+  border-color: #c82c74;
+  color: #c82c74;
+}
+
+#scienceoutdoors > .card {
+  background-color: #ffffff;
+}
+
+#summerscienceseminars > .card {
+  background-color: #ffffff;
+}
+
+#sliceofart > .card {
+  background-color: #ffffff;
+}
+
+#scienceoutdoors > .sobackground {
+  background-color: #c8dffe;
+}
+
+#summerscienceseminars > ._3sbackground {
+  background-color: #98fb98;
+}
+
+#sliceofart > .soabackground {
+  background-color: #fadadd;
+}
+
+footer {
+  background-color: #6aaa61;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.footercol {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-right: -5px;
+  border-color: #ffffff;
+  border-width: 0;
+  border-left-width: medium;
+  border-right-width: medium;
+  border-radius: 0;
+}
+
+.leftmargin {
+  border-left: 0;
+}
+
+.rightmargin {
+  border-right: 0;
+}
+
+.body-container {
+  padding-top: 7vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1vh;
+  background-color: #fff3d1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-body {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.list-group-item {
+  background-color: inherit;
+}
+
+.underline {
+  text-decoration: underline!important;
+}
+
+.card-footer {
+  text-align: center;
+  background-color: inherit;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.card > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  max-width: 95%;
+  max-height: 95%;
+  width: auto;
+  height: 200px;
+}
