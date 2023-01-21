@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="logo.png" width="32px" alt="LS" class="d-inline-block align-text-middle my-auto">
@@ -26,8 +26,26 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="programs.html">Programs</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="programs.html" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  Programs
+                  <i class="fa fa-heart">↓</i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="programs/so.html">Science Outdoors (SO)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="programs/3s.html">Summer Science Seminars (3S)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="programs/soa.html">Slice of Art (SOA)</a>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <a class="dropdown-item" href="programs/soa-artcompetition.html">SOA Art Competition 2023</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="registration.html">Registration</a>
@@ -135,8 +153,8 @@
       <div class="container">
         <div class="row mt-5">
           <div class="card footercol col-lg-4 leftmargin">
-            <a href="index.html" class="plainurl">
-              <img src="logo.png" width="32px" alt="LS" class="d-inline-block">
+            <a href="index.html" class="plainurl navbar-brand navbar-brand-footer">
+              <img src="invert_logo.png" width="32px" alt="LS" class="d-inline-block">
               Lexington Sprouts
             </a>
           </div>
@@ -155,7 +173,7 @@
             <p class="copyright text-center">
               © Copyright 2023, Lexington Sprouts
               <br>
-              Website hand-coded and typed up by Owen<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">.</a>
+              Website hand-coded and typed up by Tact<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">.</a>
             </p>
           </div>
         </div>

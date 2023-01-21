@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="logo.png" width="32px" alt="LS" class="d-inline-block align-text-middle my-auto">
@@ -26,9 +26,28 @@
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="programs.html">Programs</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="programs.html" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  Programs
+                  <i class="fa fa-heart">↓</i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="programs/so.html">Science Outdoors (SO)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="programs/3s.html">Summer Science Seminars (3S)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="programs/soa.html">Slice of Art (SOA)</a>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <a class="dropdown-item" href="programs/soa-artcompetition.html">SOA Art Competition 2023</a>
+                  </li>
+                </ul>
               </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="registration.html">Registration</a>
               </li>
@@ -51,16 +70,15 @@
     </div>
 
     <div class="page-container">
+      <div class="p-5 mt-5 bg-warning rounded">
+        <h1>FAQ</h1>
+        <h5>Here are some potential questions you may have...</h5>
+      </div>
       <div class="container body-container">
-        <div class="p-5 bg-warning rounded">
-          <h1>FAQ</h1>
-          <h5>Here are some potential questions you may have...</h5>
-        </div>
-        <br><br>
         <div id="scienceoutdoors">
           <div class="card w-100 sobackground">
             <div class="card-body text-center">
-              <h3 class="card-title">Science Outdoors</h3>
+              <h3 class="card-title"><a href="programs/so.html">Science Outdoors</a></h3>
               <div class="accordion" id="soaccordion">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="soH1">
@@ -154,7 +172,7 @@
         <div id="summerscienceseminars">
           <div class="card w-100 _3sbackground">
             <div class="card-body text-center">
-              <h3 class="card-title">Summer Science Seminars</h3>
+              <h3 class="card-title"><a href="programs/3s.html">Summer Science Seminars</a></h3>
               <div class="accordion" id="3saccordion">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="_3sH1">
@@ -200,7 +218,7 @@
                   </h2>
                   <div id="_3sC4" class="accordion-collapse collapse" aria-labelledby="_3sH4" data-bs-parent="#3saccordion">
                     <div class="accordion-body">
-                      A: You will receive emails with announcements and updates as well as further information on this website. In addition, you will receive updates via our Google Classroom, the code of which we will send you via email. We ask that you please check your email often (including your spam folder as we have switched emails in the past) as that will be the main form of communication we will have with our learners.
+                      A: You will receive emails with announcements and updates as well as further information on this website. We ask that you please check your email often (including your spam folder as we have switched emails in the past) as that will be the main form of communication we will have with our learners. Additionally, during registration, we will ask you to add the email <a href="mailto:lexingtonsprouts@gmail.com" class="underline">lexingtonsprouts@gmail.com</a> to your contacts list to prevent our emails from going to spam. Please make sure to do that!
                     </div>
                   </div>
                 </div>
@@ -236,7 +254,7 @@
                   </h2>
                   <div id="_3sC7" class="accordion-collapse collapse" aria-labelledby="_3sH7" data-bs-parent="#3saccordion">
                     <div class="accordion-body">
-                      A: Email or phone us. Links are on the <a href="contactandabout" class="underline">Contact</a> page.
+                      A: Email us. Links are on the <a href="contactandabout" class="underline">Contact</a> page.
                     </div>
                   </div>
                 </div>
@@ -248,7 +266,7 @@
         <div id="sliceofart">
           <div class="card w-100 soabackground">
             <div class="card-body text-center">
-              <h3 class="card-title">Slice of Art</h3>
+              <h3 class="card-title"><a href="programs/soa.html">Slice of Art</a></h3>
               <div class="accordion" id="soaaccordion">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="soaH1">
@@ -400,8 +418,8 @@
         <div class="container">
           <div class="row mt-5">
             <div class="card footercol col-lg-4 leftmargin">
-              <a href="index.html" class="plainurl navbar-brand">
-                <img src="logo.png" width="32px" alt="LS" class="d-inline-block">
+              <a href="index.html" class="plainurl navbar-brand navbar-brand-footer">
+                <img src="invert_logo.png" width="32px" alt="LS" class="d-inline-block">
                 Lexington Sprouts
               </a>
             </div>

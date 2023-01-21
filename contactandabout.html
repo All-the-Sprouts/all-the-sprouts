@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="logo.png" width="32px" alt="LS" class="d-inline-block align-text-middle my-auto">
@@ -26,8 +26,26 @@
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="programs.html">Programs</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="programs.html" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  Programs
+                  <i class="fa fa-heart">↓</i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="programs/so.html">Science Outdoors (SO)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="programs/3s.html">Summer Science Seminars (3S)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="programs/soa.html">Slice of Art (SOA)</a>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <a class="dropdown-item" href="programs/soa-artcompetition.html">SOA Art Competition 2023</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="registration.html">Registration</a>
@@ -51,20 +69,19 @@
     </div>
 
     <div class="page-container">
+      <div class="p-5 mt-5 bg-danger text-white rounded">
+        <h1>Contact</h1>
+        <h5>The best way to reach us is by emailing us at <a class="underline" href="mailto:lexingtonsprouts@gmail.com">lexingtonsprouts@gmail.com</a></h5>
+        <h6 class="mb-2 text-muted"><a href="programs/so.html">SO: Science Outdoors</a><br><a href="programs/3s.html">3S: Summer Science Seminars</a><br><a href="programs/soa.html">SOA: Slice of Art</a></h6>
+      </div>
       <div class="container body-container">
-        <div class="p-5 bg-danger text-white rounded">
-          <h1>Contact</h1>
-          <h5>The best way to reach us is by emailing us at <a class="underline" href="mailto:lexingtonsprouts@gmail.com">lexingtonsprouts@gmail.com</a></h5>
-          <h6 class="mb-2 text-muted">SO: Science Outdoors<br>3S: Summer Science Seminars<br>SOA: Slice of Art</h6>
-        </div>
-        <br><br>
-        <div class="row justify-content-center">
+        <div class="row d-flex justify-content-lg-center">
           <div class="col-lg-3">
-            <div class="card text-center">
+            <div class="card text-center" id="nishtha">
               <img src="nishtha.png" class="card-img-top" alt="Nishtha's picture">
               <div class="card-body">
                 <h5 class="card-title">Nishtha Chhabra</h5>
-                <h6 class="card-subtitle mb-2 text-muted">SO, SOA</h6>
+                <h6 class="card-subtitle mb-2 text-muted"><a href="programs/so.html">SO</a>, <a href="programs/soa.html">SOA</a></h6>
                 <strong>Science Outdoors</strong>
                 <p class="card-text">Nishtha Chhabra is a rising sophomore who has been learning about biology and chemistry for 4 and 3 years, respectively. She has a huge interest in biology and is excited to take it as her future path. She has been a part of the Science Olympiad since 8th grade. She placed 1st twice at the Science Olympiad State competition. She is a coach at Clarke Science Olympiad  for Cell Biology and Anatomy and Physiology. She completed the course of Abacus half a year ago, and has won over 2 trophies and 1 gold medal. Outside of her interest in Biology she helped run the Mural club at LHS in 2022. She won 1st place at Ekam Art Competition.</p>
                 <strong>Slice of Art</strong>
@@ -73,12 +90,12 @@
               </div>
             </div>
             <br>
-            <div class="card text-center">
+            <div class="card text-center" id="alex">
               <br>
               <img src="alex.jpg" class="card-img-top" alt="Alex's picture">
               <div class="card-body">
                 <h5 class="card-title">Alexander Corbett</h5>
-                <h6 class="card-subtitle mb-2 text-muted">3S</h6>
+                <h6 class="card-subtitle mb-2 text-muted"><a href="programs/3s.html">3S</a></h6>
                 <p class="card-text">Alex Corbett is a rising sophomore at LHS. He thoroughly enjoys reading up on some of the newest discoveries in science from experts in their fields, as well as also enjoying playing sports and writing and enjoying music.</p>
                 <a href="mailto:apcorbett06@gmail.com" class="btn btn-primary">Email me!</a>
               </div>
@@ -86,21 +103,21 @@
           </div>
           <br>
           <div class="col-lg-3">
-            <div class="card text-center">
+            <div class="card text-center" id="damon">
               <img src="damon.png" class="card-img-top" alt="Damon's picture">
               <div class="card-body">
                 <h5 class="card-title">Damon Gurvich</h5>
-                <h6 class="card-subtitle mb-2 text-muted">3S</h6>
+                <h6 class="card-subtitle mb-2 text-muted"><a href="programs/3s.html">3S</a></h6>
                 <p class="card-text">A rising sophomore at LHS, Damon Gurvich enjoys all fields of STEM with an emphasis on biology and physics. He enjoys competing in science bowl as well as the USABO and F=ma.  He enjoys collecting books and learning superfluous facts in his free time, although this must inevitably be shared with his blossoming Wikipedia and Desmos "habits".</p>
                 <a href="mailto:dagurvich@gmail.com" class="btn btn-primary">Email me!</a>
               </div>
             </div>
             <br>
-            <div class="card text-center">
+            <div class="card text-center" id="stephanie">
               <img src="stephanie.jpg" class="card-img-top" alt="Stephanie's picture">
               <div class="card-body">
                 <h5 class="card-title">Stephanie Wan</h5>
-                <h6 class="card-subtitle mb-2 text-muted">SO</h6>
+                <h6 class="card-subtitle mb-2 text-muted"><a href="programs/so.html">SO</a></h6>
                 <p class="card-text">Hello, I'm Stephanie Wan, a rising junior at Lexington High School and a teacher at Science Outdoors and our new CS program, Bits of Code. I have been doing computer science and science since I was in 6th grade. Both subjects are incredibly fascinating and fun, and I hope to introduce them to some students this coming summer.</p>
                 <a href="mailto:stephaniewan07@gmail.com" class="btn btn-primary">Email me!</a>
               </div>
@@ -108,15 +125,16 @@
           </div>
           <br>
           <div class="col-lg-3">
-            <div class="card text-center">
+            <div class="card text-center" id="owen">
               <img src="owen.png" class="card-img-top" alt="Owen's picture">
               <div class="card-body">
                 <h5 class="card-title">Owen Jiang</h5>
-                <h6 class="card-subtitle mb-2 text-muted">SO, 3S</h6>
+                <h6 class="card-subtitle mb-2 text-muted"><a href="programs/so.html">SO</a>, <a href="programs/3s.html">3S</a></h6>
                 <p class="card-text">Owen Jiang is a rising sophomore at Lexington High School. He has participated in many math competitions such as the AMC, MATHCOUNTS, MML, MAML, BMT, HMMT, and NEML. Besides his daily forays into calculus and reading literature and textbooks, he also played piano at the New England Conservatory. He qualified for the 2020 National Geography Bee State Competition, and he enjoys his science commitments, listening to the radio, and enjoying the small things in life.</p>
 
-                <!-- If you're reading this message, you tried to find my email by looking at the code I wrote. If you tried to find my email, you may be interested in knowing that I can see emails that go to lexingtonsprouts@gmail.com. Maybe try emailing me there... -->
-                <button class="btn btn-primary" id="buttonToCheck">Don't email me please!</button>
+                <!-- If you're reading this message, you tried to find my email by looking at the code I wrote. You must be quite the interesting hacker. If you tried to find my email, you may be interested in knowing that I can see emails that go to lexingtonsprouts@gmail.com. Maybe try emailing me there... -->
+
+                <button class="btn btn-secondary" id="buttonToCheck">Don't email me please!</button>
                 <div id="display"></div>
                 <script type="text/javascript">
                     var count = 0;
@@ -125,8 +143,10 @@
 
                     button.onclick = function () {
                         count++;
-                        if (count >= 100) {
-                          disp.innerHTML = "<br>My iPhone password is 1234.";
+                        if (count >= 500) {
+                          disp.innerHTML = "<br>Okay, clearly, you are good at coding, or might be interested in it. Check out Stephanie's new computer science program.";
+                        } else if (count >= 100) {
+                          disp.innerHTML = "<br>My iPhone password is 1234. Just kidding, I don't have an iPhone, HAHAHA!";
                         } else if (count >= 20) {
                           disp.innerHTML = "<br>This is the end of the Easter Egg. Haha, jk. Unless? Nah.";
                         } else if (count >= 15) {
@@ -139,11 +159,11 @@
               </div>
             </div>
             <br>
-            <div class="card text-center">
+            <div class="card text-center" id="sam">
               <img src="sam.jpg" class="card-img-top" alt="Sam's picture">
               <div class="card-body">
                 <h5 class="card-title">Sam Wang</h5>
-                <h6 class="card-subtitle mb-2 text-muted">3S</h6>
+                <h6 class="card-subtitle mb-2 text-muted"><a href="programs/3s.html">3S</a></h6>
                 <p class="card-text">Samuel Wang is a rising sophomore at Davidson Academy Online (but still associated with Lexington, Massachusetts). He has participated in many math competitions, such as ARML and USAJMO. He has taken very advanced Calculus and chemistry courses through his school and is also preparing for the F=ma. He has also been a national science bowl champion for 2 years, in 2019 and 2021.</p>
                 <a href="mailto:samuellywang@gmail.com" class="btn btn-primary">Email me!</a>
               </div>
@@ -151,22 +171,22 @@
           </div>
           <br>
           <div class="col-lg-3">
-            <div class="card text-center">
+            <div class="card text-center" id="erin">
               <img src="erin.jpg" class="card-img-top" alt="Erin's picture">
               <div class="card-body">
                 <h5 class="card-title">Erin Suh</h5>
-                <h6 class="card-subtitle mb-2 text-muted">SO</h6>
+                <h6 class="card-subtitle mb-2 text-muted"><a href="programs/so.html">SO</a></h6>
                 <p class="card-text">Erin Suh is a rising sophomore who has been honing her interests into the field of biology followed by a secondary subject of Earth science. She has participated in the Science Bowl team for three years and recently joined the LHS NOSB team, placing 2nd at the 2022 regional competition. For the 2022 Science Olympiad Season, she competed in the events of Cell Biology, Anatomy and Physiology, and Dynamic Planet, placing top 5 in each event at SOLVI and HUSO. Outside of learning biology, she is often found listening to music and she is a competitive swimmer who participated in the state finals in 2018 and has qualified for the MIT Invitational meet 3 times. She also enjoys playing badminton and frisbee with her friends.</p>
                 <a href="mailto:erin0227@gmail.com" class="btn btn-primary">Email me!</a>
               </div>
             </div>
             <br>
-            <div class="card text-center">
+            <div class="card text-center" id="crystal">
               <img src="crystal.jpg" class="card-img-top" alt="Crystal's picture">
               <div class="card-body">
                 <h5 class="card-title">Crystal Zheng</h5>
-                <h6 class="card-subtitle mb-2 text-muted">SOA</h6>
-                <p class="card-text">Hi! I'm also a teacher at Slice Of Art and a rising sophomore at Lexington High.<br>I've been doing art since middle school and have enjoyed it ever since; art makes me feel relaxed and fulfilled!<br>My greatest strengths are mainly oil painting and digital art, although I also teach sketching and acrylic.</p>
+                <h6 class="card-subtitle mb-2 text-muted"><a href="programs/soa.html">SOA</a></h6>
+                <p class="card-text">Hi! I’m Crystal Zheng, a rising junior at Lexington High School and a teacher at Slice of Art. I've been interested in art since 6th grade and have enjoyed it ever since. Art makes me feel relaxed and fulfilled, and it had also been a great way for me to communicate with the world.<br>My greatest strengths are mainly oil painting, digital art, and sketching, although I’ve also taught sketching and acrylic.</p>
                 <a href="mailto:zying2007@gmail.com" class="btn btn-primary">Email me!</a>
               </div>
             </div>
@@ -178,8 +198,8 @@
         <div class="container">
           <div class="row mt-5">
             <div class="card footercol col-lg-4 leftmargin">
-              <a href="index.html" class="plainurl navbar-brand">
-                <img src="logo.png" width="32px" alt="LS" class="d-inline-block">
+              <a href="index.html" class="plainurl navbar-brand navbar-brand-footer">
+                <img src="invert_logo.png" width="32px" alt="LS" class="d-inline-block">
                 Lexington Sprouts
               </a>
             </div>

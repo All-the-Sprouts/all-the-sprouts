@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="logo.png" width="32px" alt="LS" class="d-inline-block align-text-middle my-auto">
@@ -26,8 +26,26 @@
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="programs.html">Programs</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="programs.html" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  Programs
+                  <i class="fa fa-heart">↓</i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="programs/so.html">Science Outdoors (SO)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="programs/3s.html">Summer Science Seminars (3S)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="programs/soa.html">Slice of Art (SOA)</a>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <a class="dropdown-item" href="programs/soa-artcompetition.html">SOA Art Competition 2023</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="registration.html">Registration</a>
@@ -51,17 +69,16 @@
     </div>
 
     <div class="page-container">
+      <div class="p-5 mt-5 bg-secondary text-white rounded">
+        <h1>Schedule</h1>
+        <h5>Schedules will be indicated in the Google Calendars below in the future.</h5>
+      </div>
       <div class="container body-container">
-        <div class="p-5 bg-secondary text-white rounded">
-          <h1>Schedule</h1>
-          <h5>Schedules will be indicated in the Google Calendars below in the future.</h5>
-        </div>
-        <br><br>
         <div id="scienceoutdoors">
           <div class="card w-100 sobackground">
             <div class="card-body text-center">
-              <h3 class="card-title">Science Outdoors</h3>
-              <p>Calendar will go here soon.</p>
+              <h3 class="card-title"><a href="programs/so.html">Science Outdoors</a></h3>
+              <p>Calendar coming soon!</p>
               <a class="btn btn-primary disabled">Add to your calendar!</a>
             </div>
           </div>
@@ -70,8 +87,8 @@
         <div id="summerscienceseminars">
           <div class="card w-100 _3sbackground">
             <div class="card-body text-center">
-              <h3 class="card-title">Summer Science Seminars</h3>
-              <p>Calendar will go here soon.</p>
+              <h3 class="card-title"><a href="programs/3s.html">Summer Science Seminars</a></h3>
+              <p>Calendar coming soon!</p>
               <a class="btn btn-success disabled">Add to your calendar!</a>
             </div>
           </div>
@@ -80,8 +97,8 @@
         <div id="sliceofart">
           <div class="card w-100 soabackground">
             <div class="card-body text-center">
-              <h3 class="card-title">Slice of Art</h3>
-              <p>Calendar will go here soon.</p>
+              <h3 class="card-title"><a href="programs/soa.html">Slice of Art</a></h3>
+              <p>Calendar coming soon!</p>
               <a class="btn btn-danger disabled">Add to your calendar!</a>
             </div>
           </div>
@@ -91,8 +108,8 @@
         <div class="container">
           <div class="row mt-5">
             <div class="card footercol col-lg-4 leftmargin">
-              <a href="index.html" class="plainurl navbar-brand">
-                <img src="logo.png" width="32px" alt="LS" class="d-inline-block">
+              <a href="index.html" class="plainurl navbar-brand navbar-brand-footer">
+                <img src="invert_logo.png" width="32px" alt="LS" class="d-inline-block">
                 Lexington Sprouts
               </a>
             </div>

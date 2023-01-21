@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="logo.png" width="32px" alt="LS" class="d-inline-block align-text-middle my-auto">
@@ -26,8 +26,26 @@
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="programs.html">Programs</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="programs.html" aria-current="page" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  Programs
+                  <i class="fa fa-heart">↓</i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="programs/so.html">Science Outdoors (SO)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="programs/3s.html">Summer Science Seminars (3S)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="programs/soa.html">Slice of Art (SOA)</a>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <a class="dropdown-item" href="programs/soa-artcompetition.html">SOA Art Competition 2023</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="registration.html">Registration</a>
@@ -54,15 +72,16 @@
         <h1>Programs that will help you <em>learn</em>, <em>think</em>, and <strong>have fun!</strong></h1>
         <br>
         <div id="scienceoutdoors">
-          <div class="card w-100 so">
-            <div class="card-body">
-              <h3 class="card-title">Science Outdoors</h3>
+          <div class="card card-white w-100 so">
+            <div class="card-body text-center">
+              <h3 class="card-title"><a href="programs/so.html">Science Outdoors</a></h3>
+              <a class="btn sobackground" href="programs/so.html" role="button">Learn More</a>
             </div>
             <div class="list-group list-group-flush">
-              <li class="list-group-item list-group-item-action list-group-item-primary">A 5-day program to introduce students to STEM</li>
+              <li class="list-group-item list-group-item-action list-group-item-primary desc">A 5-day, small-class, hands-on program to introduce students to STEM</li>
               <li class="list-group-item list-group-item-action list-group-item-primary"><strong>Teachers</strong>: <a href="contactandabout.html#nishtha" class="underline">Nishtha Chhabra</a>, <a href="contactandabout.html#owen" class="underline">Owen Jiang</a>, <a href="contactandabout.html#erin" class="underline">Erin Suh</a>, <a href="contactandabout.html#stephanie" class="underline">Stephanie Wan</a></li>
-              <li class="list-group-item list-group-item-action list-group-item-primary"><strong>Topics</strong>: TBA</li>
-              <li class="list-group-item list-group-item-action list-group-item-primary"><strong>Format</strong>: In-person, location TBA</li>
+              <li class="list-group-item list-group-item-action list-group-item-primary"><strong>Topics</strong>: TBD</li>
+              <li class="list-group-item list-group-item-action list-group-item-primary"><strong>Format</strong>: In-person, location TBD</li>
               <li class="list-group-item list-group-item-action list-group-item-primary"><strong>Recommended for</strong>: Rising 5th-9th graders</li>
               <li class="list-group-item list-group-item-action list-group-item-primary"><strong>Cost</strong>: <em class="text-success">FREE</em></li>
               <li class="list-group-item list-group-item-action list-group-item-primary"><strong>Calendar</strong>: TBD</li>
@@ -74,15 +93,16 @@
         </div>
         <br>
         <div id="summerscienceseminars">
-          <div class="card w-100 _3s">
-            <div class="card-body">
-              <h3 class="card-title">Summer Science Seminars</h3>
+          <div class="card card-white w-100 _3s">
+            <div class="card-body text-center">
+              <h3 class="card-title"><a href="programs/3s.html">Summer Science Seminars</a></h3>
+              <a class="btn _3sbackground" href="programs/3s.html" role="button">Learn More</a>
             </div>
             <div class="list-group list-group-flush">
-              <li class="list-group-item list-group-item-action list-group-item-success">A lecture series bringing to you knowledge about various branches of science!</li>
+              <li class="list-group-item list-group-item-action list-group-item-success desc">A lecture series bringing to you knowledge about various branches of science!</li>
               <li class="list-group-item list-group-item-action list-group-item-success"><strong>Teachers/Tutors</strong>: <a href="contactandabout.html#damon" class="underline">Damon Gurvich</a>, <a href="contactandabout.html#owen" class="underline">Owen Jiang</a>, <a href="contactandabout.html#sam" class="underline">Sam Wang</a></li>
               <li class="list-group-item list-group-item-action list-group-item-success"><strong>Topics</strong>: Biology, Physics, Chemistry, Earth Sciences, Mathematics, each one series</li>
-              <li class="list-group-item list-group-item-action list-group-item-success"><strong>Format</strong>: Lectures over Zoom, demonstrations in-person with location TBA</li>
+              <li class="list-group-item list-group-item-action list-group-item-success"><strong>Format</strong>: Lectures and tutoring over Zoom</li>
               <li class="list-group-item list-group-item-action list-group-item-success"><strong>Recommended for</strong>: Rising 5th-9th graders (exceptional 4th graders on a case-by-case basis)</li>
               <li class="list-group-item list-group-item-action list-group-item-success"><strong>Cost</strong>: <span class="text-success">$10/lecture series, $20/hour of tutoring</span></li>
               <li class="list-group-item list-group-item-action list-group-item-success"><strong>Calendar</strong>: TBD</li>
@@ -94,17 +114,18 @@
         </div>
         <br>
         <div id="sliceofart">
-          <div class="card w-100 soa">
-            <div class="card-body">
-              <h3 class="card-title">Slice of Art</h3>
+          <div class="card card-white w-100 soa">
+            <div class="card-body text-center">
+              <h3 class="card-title"><a href="programs/soa.html">Slice of Art</a></h3>
+              <a class="btn soabackground" href="programs/soa.html" role="button">Learn More</a>
             </div>
             <div class="list-group list-group-flush">
-              <li class="list-group-item list-group-item-action list-group-item-danger">Covering the basics of art and their purposes, getting you introduced to multiple mediums!</li>
+              <li class="list-group-item list-group-item-action list-group-item-danger desc">Covering the basics of art and their purposes, getting you introduced to multiple mediums!</li>
               <li class="list-group-item list-group-item-action list-group-item-danger"><strong>Teachers</strong>: <a href="contactandabout.html#nishtha" class="underline">Nishtha Chhabra</a> (digital), <a href="contactandabout.html#crystal" class="underline">Crystal Zheng</a> (in-person)</li>
               <li class="list-group-item list-group-item-action list-group-item-danger"><strong>Mediums</strong>: Sketching, Pastels, Acrylic</li>
               <li class="list-group-item list-group-item-action list-group-item-danger"><strong>Areas</strong>: Digital Art online, everything else in-person</li>
               <li class="list-group-item list-group-item-action list-group-item-danger"><strong>Recommended for</strong>: Rising 2nd-8th graders</li>
-              <li class="list-group-item list-group-item-action list-group-item-danger"><strong>Cost</strong>: <span class="text-success">$10-$15/class</span></li>
+              <li class="list-group-item list-group-item-action list-group-item-danger"><strong>Cost</strong>: <span class="text-success"> $10 for online, $15 for in-person</span></li>
               <li class="list-group-item list-group-item-action list-group-item-danger"><strong>Calendar</strong>: TBD</li>
             </div>
             <div class="card-footer">
@@ -118,8 +139,8 @@
         <div class="container">
           <div class="row mt-5">
             <div class="card footercol col-lg-4 leftmargin">
-              <a href="index.html" class="plainurl navbar-brand">
-                <img src="logo.png" width="32px" alt="LS" class="d-inline-block">
+              <a href="index.html" class="plainurl navbar-brand navbar-brand-footer">
+                <img src="invert_logo.png" width="32px" alt="LS" class="d-inline-block">
                 Lexington Sprouts
               </a>
             </div>

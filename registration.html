@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="logo.png" width="32px" alt="LS" class="d-inline-block align-text-middle my-auto">
@@ -26,8 +26,26 @@
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="programs.html">Programs</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="programs.html" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  Programs
+                  <i class="fa fa-heart">↓</i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="programs/so.html">Science Outdoors (SO)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="programs/3s.html">Summer Science Seminars (3S)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="programs/soa.html">Slice of Art (SOA)</a>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <a class="dropdown-item" href="programs/soa-artcompetition.html">SOA Art Competition 2023</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="registration.html">Registration</a>
@@ -51,19 +69,35 @@
     </div>
 
     <div class="page-container">
+      <div class="p-5 mt-5 bg-info text-white rounded">
+        <h1>Registration</h1>
+        <h5>Choose a program below!</h5>
+      </div>
       <div class="container body-container">
-        <div class="p-5 bg-primary text-white rounded">
-          <h1>Registration</h1>
-          <h5>Registration can be found at the typeform that will be posted <a class="underline disabled">here</a> in the future.</h5>
+        <div class="row">
+          <div class="col-lg-4 mb-3">
+            <button type="button" class="btn btn-primary registerbutton disabled" onclick="location.href=''">Science Outdoors</button>
+            <br><br>
+            <p>Registration link coming soon!</p>
+          </div>
+          <div class="col-lg-4 mb-3">
+            <button type="button" class="btn btn-success registerbutton disabled" onclick="location.href=''">Summer Science Seminars</button>
+            <br><br>
+            <p>Registration link coming soon!</p>
+          </div>
+          <div class="col-lg-4 mb-3">
+            <button type="button" class="btn btn-danger registerbutton disabled" onclick="location.href=''">Slice of Art</button>
+            <br><br>
+            <p>Registration link coming soon!</p>
+          </div>
         </div>
-        <br><br>
       </div>
       <footer class="footer">
         <div class="container">
           <div class="row mt-5">
             <div class="card footercol col-lg-4 leftmargin">
-              <a href="index.html" class="plainurl navbar-brand">
-                <img src="logo.png" width="32px" alt="LS" class="d-inline-block">
+              <a href="index.html" class="plainurl navbar-brand navbar-brand-footer">
+                <img src="invert_logo.png" width="32px" alt="LS" class="d-inline-block">
                 Lexington Sprouts
               </a>
             </div>
