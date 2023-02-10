@@ -133,7 +133,7 @@
 
                 <!-- If you're reading this message, you tried to find my email by looking at the code I wrote. You must be quite the interesting hacker. If you tried to find my email, you may be interested in knowing that I can see emails that go to lexingtonsprouts@gmail.com. Maybe try emailing me there... -->
 
-                <button class="btn btn-secondary" id="buttonToCheck">Don't email me please!</button>
+                <button class="btn btn-primary" id="buttonToCheck">Don't email me please!</button>
                 <div id="display"></div>
                 <script type="text/javascript">
                     var count = 0;
@@ -142,16 +142,8 @@
 
                     button.onclick = function () {
                         count++;
-                        if (count >= 500) {
-                          disp.innerHTML = "<br>Okay, clearly, you are good at coding, or might be interested in it. Check out Stephanie's new computer science program.";
-                        } else if (count >= 100) {
-                          disp.innerHTML = "<br>My iPhone password is 1234. Just kidding, I don't have an iPhone, HAHAHA!";
-                        } else if (count >= 20) {
-                          disp.innerHTML = "<br>This is the end of the Easter Egg. Haha, jk. Unless? Nah.";
-                        } else if (count >= 15) {
-                          disp.innerHTML = "<br>Seriously, please stop.";
-                        } else if (count >= 3) {
-                          disp.innerHTML = "<br>Please stop trying.";
+                        if (count >= 3) {
+                          disp.innerHTML = "<br>Unfortunately, Owen does not wish to be emailed. Thanks!";
                         }
                     }
                 </script>
