@@ -205,12 +205,13 @@ a {
 
 .dropdown:hover .dropdown-menu {
   display: block;
+  float: right;
 }
 
 .dropdown-toggle::after {
   display: none;
 }
 
-.dropdown-item.active {
+.dropdown-item.active .dropdown-item:hover .dropdown-menu {
   background-color: #6aaa61;
 }
