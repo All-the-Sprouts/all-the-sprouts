@@ -8,14 +8,14 @@
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
   </head>
   <body>
     <div class="container">
       <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="logo.png" width="32px" alt="LS" class="d-inline-block align-text-middle my-auto">
+            <img src="images/logo.png" width="32px" alt="LS" class="d-inline-block align-text-middle my-auto">
             Lexington Sprouts
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -96,14 +96,14 @@
     <div class="page-container">
       <div class="container body-container">
         <div class="row">
-          <div class="col-lg-3 d-flex align-items-stretch">
+          <div class="col-lg-4 d-flex align-items-stretch">
             <div class="card-body">
               <h2 class="card-title"><strong>Fun Summer Learning.</strong></h2>
               <p class="card-text">Did we get your attention?</p>
               <a href="programs.html" class="btn btn-primary">You got my attention!</a>
             </div>
           </div>
-          <div class="col-lg-9 mt-5">
+          <div class="col-lg-8 mt-5">
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -112,19 +112,19 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="scienceoutdoors.jpg" class="d-block" align="center" alt="SO">
+                  <img src="images/so_title.png" class="d-block" align="center" alt="SO">
                   <div class="carousel-caption d-none d-md-block">
                     <h5><a class="plainurl text-white" href="programs.html#scienceoutdoors">Science Outdoors</a></h5>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="summerscienceseminars.png" class="d-block" alt="3S">
+                  <img src="images/3s_title.png" class="d-block" alt="3S">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5><a class="plainurl" href="programs.html#summerscienceseminars.html">Summer Science Seminars</a></h5>
+                    <h5><a class="plainurl text-white" href="programs.html#summerscienceseminars.html">Summer Science Seminars</a></h5>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
-                  <img src="sliceofart.jpg" class="d-block" alt="SoA">
+                  <img src="images/soa_title.jpg" class="d-block" alt="SoA">
                   <div class="carousel-caption d-none d-md-block">
                     <h5><a class="plainurl text-white" href="programs.html#sliceofart">Slice of Art</a></h5>
                   </div>
@@ -173,7 +173,42 @@
             </div>
           </div>
         </div>
-        <div class="text-center">Website last updated June 3rd, 2023<br>Note: website also being revamped right now. Please be patient as information is in the process of changing. Email us if you have any questions.</div>
+        <br>
+        <!-- Modal -->
+        <div class="modal fade" id="dateModal" tabindex="-1" aria-labelledby="dateModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">At 9:12 AM</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Have a fine day!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <strong>
+            Website last updated <a type="button" class="underline" data-bs-toggle="modal" data-bs-target="#dateModal">June 19th, 2023</a>
+          </strong>
+          <br>
+          Note: website also being revamped right now. Please be patient as information is in the process of changing. Email us if you have any questions.
+        </div>
+        <br>
+        <div class="card text-center">
+          List of things that will be added shortly in the coming future:
+          <ul>
+            <li>Summer Science Seminars Registration link</li>
+            <li>Science Outdoors Calendar</li>
+            <li>Specific topics for both 3S and SO</li>
+            <li>Updated list of teachers</li>
+            <li>Explanation of our mission and goals</li>
+            <hr>
+            <li>Better website design (animations and using React instead of dry markup)</li>
+            <li>Eventual porting of old websites to new ones</li>
+          </ul>
+        </div>
       </div>
 
       <footer class="footer">
@@ -181,7 +216,7 @@
         <div class="row mt-5">
           <div class="card footercol col-lg-4 leftmargin">
             <a href="index.html" class="plainurl navbar-brand navbar-brand-footer">
-              <img src="invert_logo.png" width="32px" alt="LS" class="d-inline-block">
+              <img src="images/invert_logo.png" width="32px" alt="LS" class="d-inline-block">
               Lexington Sprouts
             </a>
           </div>
@@ -200,7 +235,7 @@
             <p class="copyright text-center">
               © Copyright 2023, Lexington Sprouts
               <br>
-              Website hand-made with "love" by Owen<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">.</a>
+              Website hand-made with love by Owen<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">.</a>
             </p>
           </div>
         </div>

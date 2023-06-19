@@ -103,6 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left-width: medium;
   border-right-width: medium;
   border-radius: 0;
+  color: white;
 }
 
 .leftmargin {
@@ -205,13 +206,24 @@ a {
 
 .dropdown:hover .dropdown-menu {
   display: block;
-  float: right;
 }
 
 .dropdown-toggle::after {
   display: none;
 }
 
-.dropdown-item.active .dropdown-item:hover .dropdown-menu {
-  background-color: #6aaa61;
+.dropdown-item.active .dropdown-item:hover .dropdown-item:active .dropdown-item.hover {
+  background-color: #6aaa61!important;
+}
+
+ul.dropdown-menu {
+  --bs-dropdown-link-active-bg: #6aaa61!important;
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-bg: #dc3545!important;
+}
+
+ul {
+  list-style-position: inside;
 }
