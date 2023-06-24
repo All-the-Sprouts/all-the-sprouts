@@ -227,3 +227,12 @@ ul.dropdown-menu {
 ul {
   list-style-position: inside;
 }
+
+.math, .math > u, .math > em, .math > sub {
+  font-family: Cambria Math!important;
+}
+
+.swinging404 {
+  animation: swing; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
