@@ -232,7 +232,75 @@ ul {
   font-family: Cambria Math!important;
 }
 
-.swinging404 {
-  animation: swing; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+/* I really wish I didn't have to do this */
+
+.bounceHover:hover {
+  animation: bounce;
+  animation-duration: 2s;
+}
+
+.flashHover:hover {
+  animation: flash;
+  animation-duration: 2s;
+}
+
+.pulseHover:hover {
+  animation: pulse;
+  animation-duration: 2s;
+}
+
+.rubberBandHover:hover {
+  animation: rubberBand;
+  animation-duration: 2s;
+}
+
+.shakeXHover:hover {
+  animation: shakeX;
+  animation-duration: 2s;
+}
+
+.shakeYHover:hover {
+  animation: shakeY;
+  animation-duration: 2s;
+}
+
+.headShakeHover:hover {
+  animation: headShake;
+  animation-duration: 2s;
+}
+
+.swingHover:hover {
+  animation: swing;
+  animation-duration: 2s;
+}
+
+.tadaHover:hover {
+  animation: tada;
+  animation-duration: 2s;
+}
+
+.wobbleHover:hover {
+  animation: wobble;
+  animation-duration: 2s;
+}
+
+.jelloHover:hover {
+  animation: jello;
+  animation-duration: 2s;
+}
+
+.heartBeatHover:hover {
+  animation: heartBeat;
+  animation-duration: 2s;
+}
+
+/* don't break */
+
+a:hover {
+  animation: pulse;
+  animation-duration: 2s;
+}
+
+.dropdown-item {
+  animation: none!important;
 }
