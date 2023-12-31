@@ -13,14 +13,20 @@
     <link rel="icon" type="image/x-icon" href="images/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <meta http-equiv="refresh" content="1; URL=maintenance.html">
   </head>
   <body>
     <div class="container">
-      <div class="container">
-        <script id="replace_with_navbar" src="nav.js"></script>
-      </div>
-    </div>
+      <script id="replace_with_navbar" src="js/nav.js"></script>
 
+      <script>
+        var menuid = "programs_active";
+        $(function() {
+            $('.nav-item a').removeClass('active');
+            $(menuid).addClass("active");
+        });
+      </script>
+    </div>
     <div class="page-container">
       <div class="container body-container">
         <h1>Programs that will help you <em>learn</em>, <em>think</em>, and <strong>have fun!</strong></h1>

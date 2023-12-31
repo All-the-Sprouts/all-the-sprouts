@@ -1,6 +1,6 @@
 body {
   background-color: #fff5e5;
-  /* background-color: #aaaaaa; For easy distinction with other background*/
+  /* background-color: #aaaaaa; /* For easy distinction with other background */
   background-image: var(--bs-gradient);
   color: black;
 }

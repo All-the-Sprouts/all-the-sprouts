@@ -1,6 +1,3 @@
-$(document).ready(function() {
-	$('#nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-});
 fetch('../ui/nav.html')
 .then(res => res.text())
 .then(text => {
