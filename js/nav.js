@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('#nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
 });
-fetch('nav.html')
+fetch('../ui/nav.html')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#replace_with_navbar");
