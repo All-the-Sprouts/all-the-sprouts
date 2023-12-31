@@ -1,3 +1,6 @@
+$(document).ready(function() {
+	$('#nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+});
 fetch('nav.html')
 .then(res => res.text())
 .then(text => {
