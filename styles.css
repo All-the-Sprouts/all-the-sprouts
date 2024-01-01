@@ -1,26 +1,27 @@
 body {
-  background-color: #fff5e5;
+  background-color: #bef7c0;
   /* background-color: #aaaaaa; /* For easy distinction with other background */
   background-image: var(--bs-gradient);
   color: black;
 }
 
 * {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 nav {
   font-size: 18px;
-  background-color: #ffffff;
+  background-color: #87C38F;
+  background-image: var(--bs-gradient);
 }
 
 .nav-link, .navbar-brand {
-  font-family: 'Oswald', sans-serif!important;
-  color: #6aaa61;
+  font-family: 'Montserrat', sans-serif!important;
+  color: #ffffff;
 }
 
 .navbar-brand:hover, .nav-link:hover {
-  color: #83cc78;
+  color: #000000;
 }
 
 .active {
@@ -29,7 +30,7 @@ nav {
 
 .card {
   border-color: none;
-  border-width: medium;
+  border-width: 0;
   margin: 5px;
   background-color: inherit;
 }
@@ -56,42 +57,53 @@ h1, h2, h3, h4, h5, h6 {
 /* Program-specific graphics */
 
 .so {
-  border-color: #0d6efd;
-  color: #0d6efd;
+  background-color: #4672fe;
+  background-image: var(--bs-gradient);
 }
 
 ._3s {
-  border-color: #20c997;
-  color: #20c997;
+  background-color: #7ec699;
+  background-image: var(--bs-gradient);
 }
 
 .soa {
-  border-color: #c82c74;
-  color: #c82c74;
+  background-color: #e2777a;
+  background-image: var(--bs-gradient);
 }
 
 #scienceoutdoors > .card-white {
-  background-color: #ffffff;
+  background-color: #f18f01;
+  background-image: var(--bs-gradient);
 }
 
 #summerscienceseminars > .card-white {
-  background-color: #ffffff;
+  background-color: #f18f01;
+  background-image: var(--bs-gradient);
 }
 
 #sliceofart > .card-white {
-  background-color: #ffffff;
+  background-color: #f18f01;
+  background-image: var(--bs-gradient);
 }
 
+/* Learn more buttons */
+
 .sobackground, .sobackground:hover {
-  background-color: #c8dffe;
+  background-color: #3d0814;
+  background-image: var(--bs-gradient);
+  color: white;
 }
 
 ._3sbackground, ._3sbackground:hover {
-  background-color: #98fb98;
+  background-color: #3d0814;
+  background-image: var(--bs-gradient);
+  color: white;
 }
 
 .soabackground, .soabackground:hover {
-  background-color: #fadadd;
+  background-color: #3d0814;
+  background-image: var(--bs-gradient);
+  color: white;
 }
 
 .footercol {
@@ -124,7 +136,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 32rem;
-  background-color: #fff3d1;
+  background-color: #226f54;
+  background-image: var(--bs-gradient);
 }
 
 footer {
@@ -151,6 +164,8 @@ a {
 
 .list-group-item {
   background-color: inherit;
+  border-bottom-width: 0px!important;
+  color: white;
 }
 
 .underline {
@@ -193,7 +208,7 @@ a {
 }
 
 .list-group-item > strong {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .dropdown-menu {
@@ -213,11 +228,12 @@ a {
 }
 
 .dropdown-item.active .dropdown-item:hover .dropdown-item:active .dropdown-item.hover {
-  background-color: #6aaa61!important;
+  background-color: #50c878!important;
+  background-image: var(--bs-gradient);
 }
 
 ul.dropdown-menu {
-  --bs-dropdown-link-active-bg: #6aaa61!important;
+  --bs-dropdown-link-active-bg: #50c878!important;
 }
 
 .nav-pills {
@@ -301,6 +317,15 @@ a:hover {
   animation-duration: 2s;
 }
 
+.breathe {
+  animation: pulse;
+  animation-duration: 2s;
+}
+
 .dropdown-item {
   animation: none!important;
+}
+
+span:heavy {
+  font-weight: 900;
 }
