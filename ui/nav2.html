@@ -1,78 +1,104 @@
-<nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
+<nav class="navbar navbar-expand-lg fixed-top bg-dark-subtle" data-bs-theme="dark">
   <div class="container">
-    <a class="navbar-brand animate__animated animate__bounceIn" href="../index.html">
-      <img src="images/logo.png" width="32px" alt="LS" class="d-inline-block align-text-middle my-auto">
-      Lexington Sprouts
+    <a class="navbar-brand animate__animated animate__bounceIn" href="../">
+      <img src="../images/logo.png" width="32px" alt="Logo" class="d-inline-block align-text-middle my-auto">
+      All the Sprouts
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav my-auto" align="right">
+      <ul class="navbar-nav my-auto text-end g-2">
         <li class="nav-item">
-          <a class="nav-link" href="../index.html" id="index_active">Home</a>
+          <a class="nav-link" href="../" id="index_active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../about" id="about_active">About</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="../programs.html" id="navbarDropdownMenuLink programs_active" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="../programs" id="navbarDropdownMenuLink1 programs_active" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
             Programs
-            <i class="fa fa-heart">↓</i>
+            <i class="fa fa-heart">▾</i>
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
             <li>
-              <a class="dropdown-item" href="../programs/science-outdoors.html" id="so_active">Science Outdoors (SO)</a>
+              <a class="dropdown-item" href="../programs/science-outdoors" id="so_active">Science Outdoors (SO)</a>
             </li>
             <li>
-              <a class="dropdown-item" href="../programs/summer-science-seminars.html" id="3s_active">Summer Science Seminars (3S)</a>
+              <a class="dropdown-item" href="../programs/summer-science-seminars" id="3s_active">Summer Science Seminars (3S)</a>
             </li>
             <li>
-              <a class="dropdown-item" href="../programs/slice-of-art.html" id="soa_active">Slice of Art (SOA)</a>
-            </li>
-            <li><hr class="dropdown-divider"></li>
-            <li>
-              <a class="dropdown-item" href="../programs/art-competition.html" id="art_competition_active">Art Competition Fall 2023</a>
+              <a class="dropdown-item" href="../programs/slice-of-art" id="soa_active">Slice of Art (SOA)</a>
             </li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../registration.html" id="registration_active">Registration</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../schedule.html" id="schedule_active">Schedule</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../faq.html" id="faq_active">FAQ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../contact-and-about.html" id="contact_and_about_active">Contact and About</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-            Past Events
-            <i class="fa fa-heart">↓</i>
+          <a class="nav-link dropdown-toggle" href="../branches" id="navbarDropdownMenuLink2 branches_active" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            Branches
+            <i class="fa fa-heart">▾</i>
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
             <li>
-              <a class="dropdown-item disabled" href="#">Season 2: SO 2022</a>
-            </li>
-            <li>
-              <a class="dropdown-item disabled" href="#">Season 1: SO 2021</a>
+              <a class="dropdown-item" href="../branches/lexington" id="lexington_active">Lexington</a>
             </li>
             <li><hr class="dropdown-divider"></li>
             <li>
-              <a class="dropdown-item disabled" href="#">Season 2: 3S 2022</a>
+              <a class="dropdown-item disabled" href="#" id="hopkinton_active">Hopkinton</a>
             </li>
             <li>
-              <a class="dropdown-item disabled" href="#">Season 1: 3S 2021</a>
-            </li>
-            <li>
-              <a class="dropdown-item disabled" href="#">Season 0: 3S 2020</a>
-            </li>
-            <li><hr class="dropdown-divider"></li>
-            <li>
-              <a class="dropdown-item disabled" href="#">Season 1: SOA 2022</a>
+              <a class="dropdown-item disabled" href="#" id="wachusett_active">Wachusett</a>
             </li>
           </ul>
         </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3 past-events_active" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            Past Events
+            <i class="fa fa-heart">▾</i>
+          </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+              <li>
+                <a class="dropdown-item disabled" href="#">Season 3: SO 2023</a>
+              </li>
+              <li>
+                <a class="dropdown-item disabled" href="#">Season 2: SO 2022</a>
+              </li>
+              <li>
+                <a class="dropdown-item disabled" href="#">Season 1: SO 2021</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item disabled" href="#">Season 3: 3S 2023</a>
+              </li>
+              <li>
+                <a class="dropdown-item disabled" href="#">Season 2: 3S 2022</a>
+              </li>
+              <li>
+                <a class="dropdown-item disabled" href="#">Season 1: 3S 2021</a>
+              </li>
+              <li>
+                <a class="dropdown-item disabled" href="#">Season 0: 3S 2020</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item disabled" href="#">Season 1: SOA 2022</a>
+              </li>
+            </ul>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="../faq" id="faq_active">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../team" id="team_active">Team</a>
+        </li>
+        <div class="row gy-2 gx-2">
+          <li class="col-lg-6 nav-item">
+            <a class="btn bg-blue-gradient w-lg-25" href="../registration">Register</a>
+          </li>
+          <li class="col-lg-6 nav-item">
+            <a class="btn bg-red-gradient w-lg-25" href="../join-us">Join us</a>
+          </li>
+          <!-- https://drs672iovnw.typeform.com/to/cp0Dl6Fb -->
+        </div>
       </ul>
     </div>
   </div>

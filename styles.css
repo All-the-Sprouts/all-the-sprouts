@@ -1,222 +1,45 @@
+/* Font for website majority*/
+* {
+  font-family: 'Karla', sans-serif;
+}
+
+/* Body requirements */
 body {
-  background-color: #bef7c0;
-  /* background-color: #aaaaaa; /* For easy distinction with other background */
+  background-color: #cbd4c2; /* For easy distinction with other background */
   background-image: var(--bs-gradient);
   color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-* {
-  font-family: 'Noto Sans', sans-serif;
-}
-
+/* Navbar requirements */
 nav {
   font-size: 18px;
-  background-color: #87C38F;
-  background-image: var(--bs-gradient);
+  background-color: #1a1d20;
+  text-align: right;
 }
 
-.nav-link, .navbar-brand {
-  font-family: 'Montserrat', sans-serif!important;
-  color: #ffffff;
+/* Font for navbar */
+.nav-link, .navbar-brand, .dropdown-item, .col-lg-6.nav-item {
+  font-family: 'Manrope', sans-serif!important;
+  color: #fffdff;
 }
 
-.navbar-brand:hover, .nav-link:hover {
-  color: #000000;
+/* Turn gold on navbar link hover */
+.navbar-brand:hover, .nav-link:hover, .dropdown-item:hover {
+  color: #c3b299;
 }
 
-.active {
-  color: black!important;
-}
-
-.card {
-  border-color: none;
-  border-width: 0;
-  margin: 5px;
-  background-color: inherit;
-}
-
-.carousel-inner > .carousel-item > img {
-  height: 50vh;
-  margin: auto;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  text-align: center;
-}
-
-.card-title > a {
-  font-weight: bold;
-  text-decoration: none;
-  color: inherit;
-}
-
-.row {
-  text-align: center;
-}
-
-/* Program-specific graphics */
-
-.so {
-  background-color: #4672fe;
-  background-image: var(--bs-gradient);
-}
-
-._3s {
-  background-color: #7ec699;
-  background-image: var(--bs-gradient);
-}
-
-.soa {
-  background-color: #e2777a;
-  background-image: var(--bs-gradient);
-}
-
-#scienceoutdoors > .card-white {
-  background-color: #f18f01;
-  background-image: var(--bs-gradient);
-}
-
-#summerscienceseminars > .card-white {
-  background-color: #f18f01;
-  background-image: var(--bs-gradient);
-}
-
-#sliceofart > .card-white {
-  background-color: #f18f01;
-  background-image: var(--bs-gradient);
-}
-
-/* Learn more buttons */
-
-.sobackground, .sobackground:hover {
-  background-color: #3d0814;
-  background-image: var(--bs-gradient);
-  color: white;
-}
-
-._3sbackground, ._3sbackground:hover {
-  background-color: #3d0814;
-  background-image: var(--bs-gradient);
-  color: white;
-}
-
-.soabackground, .soabackground:hover {
-  background-color: #3d0814;
-  background-image: var(--bs-gradient);
-  color: white;
-}
-
-.footercol {
-  margin-top: 1vh;
-  margin-bottom: 1vh;
-  margin-right: -5px;
-  border-color: #ffffff;
-  border-width: 0;
-  border-left-width: medium;
-  border-right-width: medium;
-  border-radius: 0;
-  color: white;
-}
-
-.leftmargin {
-  border-left: 0;
-}
-
-.rightmargin {
-  border-right: 0;
-}
-
-.page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-.body-container {
-  padding-top: 9vh;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 32rem;
-  background-color: #226f54;
-  background-image: var(--bs-gradient);
-}
-
-footer {
-  background-color: #6aaa61;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-}
-
-.navbar-brand.navbar-brand-footer {
-  color: white;
-}
-
-a {
-  color: inherit;
-}
-
-.card-body {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.list-group-item {
-  background-color: inherit;
-  border-bottom-width: 0px!important;
-  color: white;
-}
-
-.underline {
-  text-decoration: underline!important;
-}
-
-.card-footer {
-  text-align: center;
-  background-color: inherit;
-}
-
-.copyright {
-  font-size: 14px;
-}
-
-.card > img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  object-fit: contain;
-  max-width: 95%;
-  max-height: 95%;
-  width: auto;
-  height: 200px;
-}
-
-.card-img-top {
-  margin-top: 1rem;
-}
-
-.registerbutton {
-  --bs-btn-margin-y: .25rem;
-  --bs-btn-margin-x: .5rem;
-  --bs-btn-font-size: 2rem;
-}
-
-.desc {
-  font-family: 'Abel';
-  font-size: 1.5rem;
-}
-
-.list-group-item > strong {
-  font-family: 'Montserrat', sans-serif;
-}
-
+/* Position dropdown menu */
 .dropdown-menu {
   display: none;
   position: absolute;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-color: #1a1d20;
+  background-color: #1a1d20;
+  text-align: right;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -227,28 +50,12 @@ a {
   display: none;
 }
 
-.dropdown-item.active .dropdown-item:hover .dropdown-item:active .dropdown-item.hover {
-  background-color: #50c878!important;
-  background-image: var(--bs-gradient);
+/* Color of dropdown option and nav-links on click and when active */
+.dropdown-item:active, .nav-link.active {
+  background-color: #247ba0!important;
 }
 
-ul.dropdown-menu {
-  --bs-dropdown-link-active-bg: #50c878!important;
-}
-
-.nav-pills {
-  --bs-nav-pills-link-active-bg: #dc3545!important;
-}
-
-ul {
-  list-style-position: inside;
-}
-
-.math, .math > u, .math > em, .math > sub {
-  font-family: Cambria Math!important;
-}
-
-/* I really wish I didn't have to do this */
+/* Animations */
 
 .bounceHover:hover {
   animation: bounce;
@@ -310,11 +117,24 @@ ul {
   animation-duration: 2s;
 }
 
-/* don't break */
-
 a:hover {
   animation: pulse;
   animation-duration: 2s;
+  animation-iteration-count: infinite;
+  color: #abdf75;
+}
+
+/* Button color turns gold on hover */
+a.btn:hover {
+  background-color: #c3b299;
+}
+
+button.btn:hover {
+  background-color: #c3b299;
+}
+
+.btn {
+  /* color: inherit; */
 }
 
 .breathe {
@@ -322,16 +142,350 @@ a:hover {
   animation-duration: 2s;
 }
 
+/* No animations for dropdown-items due to weird graphics */
 .dropdown-item {
   animation: none!important;
 }
 
-span:heavy {
-  font-weight: 900;
+/* Customized colors */
+
+.gold {
+  color: #cbd4c2;
 }
 
-/* Custom Tooltip */
-.custom-tooltip {
-  --bs-tooltip-bg: var(--bd-violet-bg);
-  --bs-tooltip-color: var(--bs-white);
+.jet {
+  color: #1a1d20;
+}
+
+.blue {
+  color: #247ba0;
+}
+
+.green {
+  color: #6aaa61;
+}
+
+.silver {
+  color: #c9c9c9;
+}
+
+.fuchsia {
+  color: #cd9fcc;
+}
+
+.purple {
+  color: #631a86;
+}
+
+.indigo {
+  color: #3234a8;
+}
+
+.red {
+  color: #a52a2a;
+}
+
+.link-hover-color {
+  color: #abdf75;
+  /* ONLY FOR LINKS! */
+}
+
+.bg-gold {
+  background-color: #cbd4c2;
+}
+
+.bg-jet {
+  background-color: #1a1d20;
+  color: #fffdff;
+}
+
+.bg-blue {
+  background-color: #247ba0;
+  color: #fffdff;
+}
+
+.bg-silver {
+  background-color: #c9c9c9;
+}
+
+.bg-fuchsia {
+  background-color: #cd9fcc;
+  color: #fffdff;
+}
+
+.bg-purple {
+  background-color: #631a86;
+  color: #fffdff;
+}
+
+.bg-green {
+  background-color: #6aaa61;
+  color: #fffdff;
+}
+
+.bg-indigo {
+  background-color: #3234a8;
+  color: #fffdff;
+}
+
+.bg-red {
+  background-color: #a52a2a;
+  color: #fffdff;
+}
+
+.bg-gold-gradient {
+  background-color: #cbd4c2;
+  background-image: var(--bs-gradient);
+}
+
+.bg-jet-gradient {
+  background-color: #1a1d20;
+  background-image: var(--bs-gradient);
+  color: #fffdff;
+}
+
+.bg-blue-gradient {
+  background-color: #247ba0;
+  background-image: var(--bs-gradient);
+  color: #fffdff;
+}
+
+.bg-green-gradient {
+  background-color: #6aaa61;
+  background-image: var(--bs-gradient);
+  color: #fffdff;
+}
+
+.bg-silver-gradient {
+  background-color: #c9c9c9;
+  background-image: var(--bs-gradient);
+}
+
+.bg-fuchsia-gradient {
+  background-color: #cd9fcc;
+  background-image: var(--bs-gradient);
+  color: #fffdff;
+}
+
+.bg-purple-gradient {
+  background-color: #631a86;
+  background-image: var(--bs-gradient);
+  color: #fffdff;
+}
+
+.bg-indigo-gradient {
+  background-color: #3234a8;
+  background-image: var(--bs-gradient);
+  color: #fffdff;
+}
+
+.bg-red-gradient {
+  background-color: #a52a2a;
+  background-image: var(--bs-gradient);
+  color: #fffdff;
+}
+
+/* Customized Cards */
+.card-transparent {
+  background-color: inherit;
+}
+
+/* Cards should not have borders */
+.card {
+  border-width: 0px;
+  height: 100%;
+}
+
+.card-animated:hover {
+  animation: headShake;
+  animation-duration: 2s;
+}
+
+/* Jumbotron stuff */
+.jumbotron-img {
+  display: block;
+  height: 95vh;
+  object-fit: cover;
+  width: auto;
+}
+
+/* Oscillation for text */
+.text-oscillation::before {
+  content: "knowledge";
+  animation-name: oscillation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.text-blink {
+  animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+
+@keyframes oscillation {
+  0% {content: ""}
+  1% {content: "k"}
+  2% {content: "kn"}
+  3% {content: "kno"}
+  4% {content: "know"}
+  5% {content: "knowl"}
+  6% {content: "knowle"}
+  7% {content: "knowled"}
+  8% {content: "knowledg"}
+  9% {content: "knowledge"}
+  28% {content: "knowledge"}
+  29% {content: ""}
+  30% {content: "c"}
+  31% {content: "cu"}
+  32% {content: "cur"}
+  33% {content: "curi"}
+  34% {content: "curio"}
+  35% {content: "curios"}
+  36% {content: "curiosi"}
+  37% {content: "curiosit"}
+  38% {content: "curiosity"}
+  57% {content: "curiosity"}
+  58% {content: ""}
+  59% {content: "j"}
+  60% {content: "jo"}
+  61% {content: "joy"}
+  80% {content: "joy"}
+  81% {content: ""}
+  82% {content: "l"}
+  83% {content: "le"}
+  84% {content: "lea"}
+  85% {content: "lear"}
+  86% {content: "learn"}
+  87% {content: "learni"}
+  88% {content: "learnin"}
+  89% {content: "learning"}
+  99% {content: "learning"}
+  100% {content: ""}
+}
+
+/* Scroll down arrow stuff, appreciation goes to Matthew Hirsch */
+.scroll-down-arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  z-index: 100;
+  text-decoration: none;
+  text-shadow: 0;
+  width: 24px;
+  height: 24px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  z-index: 9;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+  -webkit-animation: fade_move_down 1s ease-in-out infinite;
+  -moz-animation: fade_move_down 1s ease-in-out infinite;
+  animation: fade_move_down 1s ease-in-out infinite;
+}
+
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+
+/* For body and footer positioning */
+.page-container {
+}
+
+.body-container {
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #e4dfda;
+  background-image: var(--bs-gradient); */
+}
+
+footer {
+  margin-top: auto;
+  background-color: #6aaa61;
+}
+
+/* Footer stuff */
+.footercol {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-right: -5px;
+  border-color: #ffffff;
+  border-width: 0;
+  border-left-width: medium;
+  border-right-width: medium;
+  border-radius: 0;
+  background-color: inherit;
+}
+
+.leftmargin {
+  border-left: 0;
+}
+
+.rightmargin {
+  border-right: 0;
+}
+
+.navbar-brand.navbar-brand-footer {
+  color: white;
+}
+
+.card-footer {
+  text-align: center;
+  background-color: inherit;
+}
+
+.copyright {
+  font-size: 14px;
+  color: white;
+}
+
+/* Current Bugs Bullet Point Translation Right */
+ul {
+  list-style-position: inside;
+}
+
+/* Plain white hyperlinks wherever not in body */
+* > a {
+  color: #ffffff;
+}
+
+/* List-groups inherit parent color */
+.list-group-item {
+  background-color: inherit;
+  color: inherit;
+}
+
+#v-pills-so-tab, #v-pills-3s-tab, #v-pills-soa-tab, #v-pills-branch-tab {
+  color: #f35b04;
+}
+
+.nav-pills .nav-link:hover {
+  color: #d63384;
+}
+
+/* For FAQ page */
+button.accordion-button:not(.collapsed) {
+  background-color: inherit;
+  color: inherit;
 }
