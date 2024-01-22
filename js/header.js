@@ -1,4 +1,4 @@
-fetch('../ui/header.html')
+fetch('ui/header.html')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#replace_with_header");
