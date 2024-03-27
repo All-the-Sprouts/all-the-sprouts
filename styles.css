@@ -1,4 +1,4 @@
-/* Font for website majority*/
+/* Font for website majority */
 * {
   font-family: 'Karla', sans-serif;
 }
@@ -410,14 +410,9 @@ button.btn:hover {
 }
 
 /* For body and footer positioning */
-.page-container {
-}
-
 .body-container {
   margin-left: auto;
   margin-right: auto;
-  /* background-color: #e4dfda;
-  background-image: var(--bs-gradient); */
 }
 
 footer {
