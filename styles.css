@@ -367,6 +367,36 @@ button.btn:hover {
   100% {content: ""}
 }
 
+/* Science Outdoors Title Animation */
+.so-oscillation::before {
+  content: "Outdoors";
+  animation-name: so_oscillation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes so_oscillation {
+  0% {content: ""}
+  1% {content: "O"}
+  2% {content: "Ou"}
+  3% {content: "Out"}
+  4% {content: "Outd"}
+  5% {content: "Outdo"}
+  6% {content: "Outdoo"}
+  7% {content: "Outdoor"}
+  8% {content: "Outdoors"}
+  91% {content: "Outdoors"}
+  92% {content: "utdoors"}
+  93% {content: "tdoors"}
+  94% {content: "doors"}
+  95% {content: "oors"}
+  96% {content: "ors"}
+  97% {content: "rs"}
+  98% {content: "s"}
+  99% {content: ""}
+  100% {content: ""}
+}
+
 /* Scroll down arrow stuff, appreciation goes to Matthew Hirsch */
 .scroll-down-arrow {
   position: absolute;
