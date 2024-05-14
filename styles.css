@@ -296,7 +296,7 @@ button.btn:hover {
 }
 
 .card-animated:hover {
-  animation: headShake;
+  animation: none;
   animation-duration: 2s;
 }
 
