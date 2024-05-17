@@ -127,10 +127,12 @@ a:hover {
 /* Button color turns gold on hover */
 a.btn:hover {
   background-color: #c3b299;
+  border-color: #c3b299;
 }
 
 button.btn:hover {
   background-color: #c3b299;
+  border-color: #c3b299;
 }
 
 .btn {
@@ -317,11 +319,11 @@ button.btn:hover {
 }
 
 .text-blink {
-  animation: blink 1s step-start 0s infinite;
+  animation: blink 2s step-start 0s infinite;
 }
 
 @keyframes blink {
-  50% {
+  5% {
     opacity: 0.0;
   }
 }
@@ -391,6 +393,62 @@ button.btn:hover {
   94% {content: "doors"}
   95% {content: "oors"}
   96% {content: "ors"}
+  97% {content: "rs"}
+  98% {content: "s"}
+  99% {content: ""}
+  100% {content: ""}
+}
+
+/* Summer Science Seminars Title Animation 1 */
+._3s-oscillation1::before {
+  content: "Summer";
+  animation-name: _3s_oscillation1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes _3s_oscillation1 {
+  0% {content: ""}
+  1% {content: "S"}
+  2% {content: "Su"}
+  3% {content: "Sum"}
+  4% {content: "Summ"}
+  5% {content: "Summe"}
+  6% {content: "Summer"}
+  93% {content: "Summer"}
+  94% {content: "ummer"}
+  95% {content: "mmer"}
+  96% {content: "mer"}
+  97% {content: "er"}
+  98% {content: "r"}
+  99% {content: ""}
+  100% {content: ""}
+}
+
+/* Summer Science Seminars Title Animation 2 */
+._3s-oscillation2::before {
+  content: "Seminars";
+  animation-name: _3s_oscillation2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes _3s_oscillation2 {
+  0% {content: ""}
+  1% {content: "S"}
+  2% {content: "Se"}
+  3% {content: "Sem"}
+  4% {content: "Semi"}
+  5% {content: "Semin"}
+  6% {content: "Semina"}
+  7% {content: "Seminar"}
+  8% {content: "Seminars"}
+  91% {content: "Seminars"}
+  92% {content: "eminars"}
+  93% {content: "minars"}
+  94% {content: "inars"}
+  95% {content: "nars"}
+  96% {content: "ars"}
   97% {content: "rs"}
   98% {content: "s"}
   99% {content: ""}
