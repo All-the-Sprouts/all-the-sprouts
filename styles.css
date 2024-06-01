@@ -168,7 +168,7 @@ button.btn:hover {
 }
 
 .silver {
-  color: #c9c9c9;
+  color: #a9aaad;
 }
 
 .fuchsia {
@@ -206,7 +206,7 @@ button.btn:hover {
 }
 
 .bg-silver {
-  background-color: #c9c9c9;
+  background-color: #a9aaad;
 }
 
 .bg-fuchsia {
@@ -258,7 +258,7 @@ button.btn:hover {
 }
 
 .bg-silver-gradient {
-  background-color: #c9c9c9;
+  background-color: #a9aaad;
   background-image: var(--bs-gradient);
 }
 
