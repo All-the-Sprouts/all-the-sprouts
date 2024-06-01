@@ -310,6 +310,13 @@ button.btn:hover {
   width: auto;
 }
 
+.jumbotron-img-50 {
+  display: block;
+  height: 50vh;
+  object-fit: cover;
+  width: auto;
+}
+
 /* Oscillation for text */
 .text-oscillation::before {
   content: "knowledge";
