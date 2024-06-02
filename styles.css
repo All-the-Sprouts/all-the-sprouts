@@ -462,6 +462,52 @@ button.btn:hover {
   100% {content: ""}
 }
 
+/* Slice of Art Title Animation 1 */
+._soa-oscillation1::before {
+  font-family: monospace;
+  content: "Slice";
+  animation-name: _soa_oscillation1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes _soa_oscillation1 {
+  0% {content: ""}
+  1% {content: "S    "}
+  2% {content: " l   "}
+  3% {content: "  i  "}
+  4% {content: "   c "}
+  5% {content: "    e"}
+  6% {content: "Sl   "}
+  7% {content: "S i  "}
+  8% {content: "S  c "}
+  9% {content: "S   e"}
+  10% {content: "Sl   "}
+  11% {content: "Sli  "}
+  12% {content: "Sl c "}
+  13% {content: "Sl  e"}
+  14% {content: "Slic"}
+  15% {content: "Sli e"}
+  16% {content: "Slice"}
+  99% {content: "Slice"}
+  100% {content: ""}
+}
+
+/* Slice of Art Title Animation 2 */
+._soa-oscillation2::before {
+  font-family: fantasy;
+  content: "Art";
+  animation-name: _soa_oscillation2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes _soa_oscillation2 {
+  0% {font-family: 'Karla'}
+  50% {font-family: fantasy;}
+  100% {font-family: 'Karla'}
+}
+
 /* Scroll down arrow stuff, appreciation goes to Matthew Hirsch */
 .scroll-down-arrow {
   position: absolute;
@@ -511,14 +557,14 @@ button.btn:hover {
 
 footer {
   margin-top: auto;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   background-color: #6aaa61;
 }
 
 /* Footer stuff */
 .footercol {
-  margin-top: 1vh;
-  margin-bottom: 1vh;
-  margin-right: -5px;
+  padding-bottom: 1vh;
   border-color: #ffffff;
   border-width: 0;
   border-left-width: medium;
@@ -577,4 +623,9 @@ ul {
 button.accordion-button:not(.collapsed) {
   background-color: inherit;
   color: inherit;
+}
+
+.bg-transparent {
+  background-color: inherit;
+  background-image: inherit;
 }
