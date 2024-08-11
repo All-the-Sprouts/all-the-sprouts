@@ -163,11 +163,11 @@ button.btn:hover {
   color: #046e8f;
 }
 
-.green {
+.silver {
   color: #6aaa61;
 }
 
-.silver {
+.green {
   color: #a9aaad;
 }
 
@@ -205,7 +205,7 @@ button.btn:hover {
   background-color: #046e8f;
 }
 
-.bg-silver {
+.bg-green {
   background-color: #a9aaad;
 }
 
@@ -219,7 +219,7 @@ button.btn:hover {
   color: #fffdff;
 }
 
-.bg-green {
+.bg-silver {
   background-color: #6aaa61;
   color: #fffdff;
 }
@@ -251,15 +251,16 @@ button.btn:hover {
   color: #fffdff;
 }
 
-.bg-green-gradient {
+.bg-silver-gradient {
   background-color: #6aaa61;
   background-image: var(--bs-gradient);
   color: #fffdff;
 }
 
-.bg-silver-gradient {
+.bg-green-gradient {
   background-color: #a9aaad;
   background-image: var(--bs-gradient);
+  color: #fffdff;
 }
 
 .bg-fuchsia-gradient {
