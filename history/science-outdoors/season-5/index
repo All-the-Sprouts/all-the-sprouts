@@ -1,0 +1,105 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Science Outdoors | All the Sprouts</title>
+
+    <script id="replace_with_header" src="../../js/header3.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <script id="replace_with_navbar" src="../../js/nav3.js"></script>
+    </div>
+
+    <!-- Obligatory Spacing -->
+    <br><br>
+    <div class="card text-bg-dark position-relative rounded-0 no-animation">
+      <img src="../../images/SO Season 1/IMG_4051.png" class="jumbotron-img-50 opacity-50" alt="Students in a meeting room at a library, while a teacher teaches in front of a whiteboard">
+      <div class="card-img-overlay">
+        <br><br><br>
+        <h1 class="card-title text-center p-5 animate__animated animate__bounceInUp" style="font-size: 72px;">Science <span class="green so-oscillation"></span></h1>
+      </div>
+      <span class="scroll-down-arrow"></span>
+    </div>
+    <div class="card bg-green-gradient position-relative rounded-0">
+      <div class="container">
+        <div class="row gy-2 card-group">
+          <div class="card bg-green-gradient bg-transparent">
+            <div class="card-body">
+              <h2 class="text-center"><em>Welcome to </em><strong>Science Outdoors</strong> - <em>Season 2025!</em></h2>
+              <p class="card-text">Science Outdoors is a free summer program that focuses on learning in a natural environment. The program provides students with hands-on activities, exploration, and scientific inquiry in an outdoor setting. We aim to introduce incoming middle schoolers and freshmen to various STEM subjects thorough various introductory classes.</p>
+              <div class="row">
+                <div class="col">
+                  <h3 class="text-center">Lexington</h3>
+                  <p class="card-text"><strong class="fs-5">Your Teachers</strong>:</p>
+                  <ul>
+                    <!-- <li>Coming Soon</li> -->
+                    <li><strong><a href="../../team#nalini">Nalini Datta</a></strong>: Physics</li>
+                    <li><strong><a href="../../team#evan">Evan Li</a></strong>: Physics</li>
+                    <li><strong><a href="../../team#bella">Bella Yu</a></strong>: Biology</li>
+                    <li><strong><a href="../../team#leo">Leo</a></strong>: Biology</li>
+                    <li><strong><a href="../../team#atticus">Atticus Oliver</a></strong>: Chemistry</li>
+                     <li><strong><a href="../../team#rahib">Rahib Hyder</a></strong>: Earth Science</li>
+                  </ul>
+                  <p class="card-text"><strong class="fs-5">Schedule</strong>: <strong><em class="indigo">Monday, August 18, 2025 to Friday, August 22, 2025, 9:00 am - 12:00 pm</em></strong><br></p>
+                  <p class="card-text"><strong class="fs-5">Location</strong>: <a href="https://share.google/sADSaMOpuuQMjVD2L">The gazebo at Hastings Park, Lexington MA</a></p>
+                  <br>
+                  <img class="w-100" src="../../images/SO2025sched.png" alt="Schedule for Science Outdoors Season 5">
+                  <img class="w-100" src="../../images/SOflyer25.png" alt="Flyer for Science Outdoors Season 5">
+                </div>
+                <div class="col">
+                  <h3 class="text-center">Hopkinton</h3>
+                  <p class="card-text"><strong class="fs-5">Your Teachers</strong>:</p>
+                  <ul>
+                    <li><strong><a href="../../team#">TBA</a></strong>: TBD</li>
+                  </ul>
+                  <p class="card-text"><strong class="fs-5">Schedule</strong>: <strong><em class="indigo">TBD</em></strong><br></p>
+                  <p class="card-text"><strong class="fs-5">Location</strong>: <a href="https://maps.app.goo.gl/9nqu8G46jHRmzDx49">Emerald Hills at 46 Greenwood Rd, Hopkinton, MA 01748</a></p>
+                </div>
+              </div>
+              <hr class="border bg-fuchsia border-5">
+              <div class="text-left">
+                <p class="card-text"><strong class="fs-5">General Topics</strong>: Introductory Physics, Biology, Chemistry, and Earth Science
+                  <p class="card-text"><strong class="fs-5">Format</strong>: This program will be held <strong>on-location</strong>.</p>
+                  <p class="card-text"><strong class="fs-5">Requirements</strong>: Although we believe anyone can learn something at our programs, we are human and thus cannot give all who apply adequate attention. As such, we choose around 15 students each running. Prequisites include:</p>
+                  <ul>
+                    <li>Being a rising 6th-8th grader</li>
+                    <li>Having enthusiasm for science and be able to show us why</li>
+                    <li>Being excited to learn!</li>
+                  </ul>
+                  <p class="card-text"><strong class="fs-5">Cost</strong>: This program is <strong class="text-success">FREE</strong>!</p>
+                  <p class="card-text"><strong class="fs-5">Registration Opens</strong>: <em class="text-blink">June 20, 2025 at 12:00 AM EDT</em>
+                  <p class="card-text"><strong class="fs-5">Registration Closes</strong>: <em class="text-blink">Sunday, August 10th, 2025 at 11:59 PM EDT</em>
+                  <p class="card-text text-center"><a href="https://docs.google.com/forms/d/e/1FAIpQLScUdEpVGV1fEz_9mdL5i7QotkqXN5-5u5U_CAYybfvre2bI5A/viewform?usp=dialog" class="btn btn-primary" role="Button">Click here to register!</a></p>
+                  <p class="card-text text-center"><a href="https://sites.google.com/view/scienceoutdoors" class="btn btn-primary" role="button">Previous Website (will be decomissioned soon)</a></p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="text-center">
+            <h1>Next Class: <strong class="text-blink">August 18</strong></h1>
+            <h1>Time: <strong class="text-blink">9 am</strong></h1>
+            <p class="text-center">Please come to the Gazebo, as always!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script id="replace_with_footer" src="../../js/footer3.js"></script>
+
+    <!-- End scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!-- Initialize Tooltips -->
+    <script type="text/javascript">
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+    <script type="text/javascript">
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+  </body>
+</html>
